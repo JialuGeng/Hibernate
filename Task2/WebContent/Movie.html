@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Movie</title>
+<style type="text/css">
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	line-height: 1.7em;
+}
+
+#header-home {
+	background: url("img/showcase.jpg") no-repeat center right/cover;
+	height: 100vh;
+	color: #fff;
+}
+
+#header-home .header-content {
+	text-align: center;
+	padding-top: 20%;
+}
+
+#header-home .header-content h1 {
+	font-size: 4rem;
+	line-height: 1.2;
+}
+
+#main-nav {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 1rem;
+}
+
+#main-nav ul {
+	display: flex;
+}
+
+#main-nav li {
+	padding: 1rem 1.5rem;
+}
+
+#main-footer {
+	background: gray;
+	color: #fff;
+	height: 5rem;
+}
+
+#main-footer .footer-content {
+	display: flex;
+	justify-content: center;
+	height: 5rem;
+	align-items: center;
+}
+
+.section-container{
+ display:block;
+}
+
+#display {
+height: 50vh;
+}
+#project {
+	height: 50vh;
+	/* background: url("img/project.jpg") no-repeat center right/cover; */
+}
+
+#title {
+	background-color: pink;
+}
+</style>
+</head>
+<body>
+	<!-- Header ------------------------------------>
+	<header id="header-home">
+		<div class="container">
+			<nav id="main-nav">
+				<ul>
+					<li>Home</li>
+					<li>About</li>
+					<li>Work</li>
+					<li>Contact</li>
+				</ul>
+			</nav>
+			<div class="header-content">
+				<h1>
+					<marquee>I Am Grace Geng The Full Stack Developer</marquee>
+					<span class="txt-type" data-wait="3000"> </span>
+				</h1>
+			</div>
+		</div>
+	</header>
+	<!-- section A---------------------->
+	<section id="A">
+		<div class="section-container">
+			<iframe id="project" src="main_project.html" height="100px"
+				width="50%" style="padding-top: 10px;"></iframe>
+			<iframe id="display" src="display.html" height="100px" width="49%"
+				name="detail_project"></iframe>
+		</div>
+		
+	</section>
+	<!-- Footer ------------------------------------->
+	 <footer id="main-footer">
+		<div class="footer-content container">
+			<table>
+				<tr id="title">
+					<th>NAME</th>
+					<th>MOBILE NUMBER</th>
+					<th>EMAIL-ID</th>
+					<th>ADDRESS</th>
+				</tr>
+				<tr id="body">
+					<td style="background-color: #EBDEF0; color: black">Grace</td>
+					<td style="background: #D4E6F1; color: black">555-555-5555</td>
+					<td style="background: #D4E6F1; color: black">gengjialu19940309@gmail.com</td>
+					<td style="background: #D1F2EB; color: black">1427 NW Kings Blvds</td>
+				</tr>
+
+			</table>
+		</div>
+	</footer>
+ 
+</body>
+</html>
